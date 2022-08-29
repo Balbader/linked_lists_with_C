@@ -1,10 +1,5 @@
 # Linked Lists in C
 
-Linked Lists are an important type of data structure in computer science and
-computer programming, so before we walkthrough how to create and use them,
-we'll also cover what Linked Lists are, how they work,
-and some practical applications of Linked Lists. 
-
 Linked List functionalities that are covered include:
 
 Creating a linked list
