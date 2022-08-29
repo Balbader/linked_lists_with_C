@@ -1,9 +1,5 @@
 # Linked Lists in C
 
-In this course you will be taught through step-by-step live coding examples how
-to create and use a library of functions for working with Linked Lists in
-the C programming language!
-
 Linked Lists are an important type of data structure in computer science and
 computer programming, so before we walkthrough how to create and use them,
 we'll also cover what Linked Lists are, how they work,
