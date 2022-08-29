@@ -12,6 +12,8 @@ void	ft_printlst(t_list *lst)
 	t_list	*current;
 	int		i;
 
+	if (!lst)
+		return ;
 	current = lst;
 	i = 0;
 	while (current != NULL)
