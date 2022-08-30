@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 typedef struct s_list
 {
@@ -24,18 +25,13 @@ void	ft_print_list(t_list *lst)
 
 }
 
+t_list	*ft_insert_at_head(t_list *lst, int new_value)
+{
+	t_list *new_node = calloc(1, sizeof(t_list));
+	new_node->content = new_value;
+}
+
 int	main(void)
 {
-	t_list a;
-	t_list b;
-	t_list c;
-	
-	a.content = 5;
-	b.content = 6;
-	c.content = 7;
-	a.next = &b;
-	b.next = &c;
-	c.next = NULL;
-	ft_print_list(&a);
 	return (0);
 }
