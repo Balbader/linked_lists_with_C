@@ -55,6 +55,9 @@ int	main(void)
 	list1_head = ft_insert_at_head(list1_head, 7);
 	list1_head = ft_insert_at_head(list1_head, 8);
 	list1_head = ft_insert_at_head(list1_head, 9);
+	list1_head = ft_insert_at_tail(list1_head, 7);
+	list1_head = ft_insert_at_tail(list1_head, 8);
+	list1_head = ft_insert_at_tail(list1_head, 9);
 	ft_print_list(list1_head);
 	return (0);
 }
