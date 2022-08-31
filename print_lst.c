@@ -1,11 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
-
-typedef struct s_list
-{
-	int				value;
-	struct s_list	*next;
-}				t_list;
+#include "lstlib.h"
 
 void	ft_printlst(t_list *lst)
 {
@@ -18,7 +11,7 @@ void	ft_printlst(t_list *lst)
 	i = 0;
 	while (current != NULL)
 	{
-		printf("t_list %d: %d\n", i, current->value);
+		printf("t_list %d: %d\n", i, current->content);
 		i++;
 		current = current->next;
 	}
@@ -30,9 +23,9 @@ int	main(void)
 	t_list	b;
 	t_list	c;
 
-	a.value = 5;
-	b.value = 6;
-	c.value = 7;
+	a.content = 5;
+	b.content = 6;
+	c.content = 7;
 	a.next = &b;
 	b.next = &c;
 	c.next = NULL;
