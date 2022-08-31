@@ -1,4 +1,4 @@
-#include "lstlib.h"
+#include "liblst.h"
 
 t_list	*insert_at_tail(t_list *lst, int new_value)
 {
