@@ -1,4 +1,4 @@
-#include "lstlib.h"
+#include "liblst.h"
 
 void	print_lst(t_list *lst)
 {
