@@ -9,8 +9,8 @@ typedef struct s_list
 	struct s_list	*next;
 }				t_list;
 
-void	ft_print_list(t_list *lst);
-t_list	*ft_insert_at_head(t_list *lst, int new_value);
-t_list	*ft_insert_at_tail(t_list *lst, int new_value);
+void	print_lst(t_list *lst);
+t_list	*insert_at_head(t_list *lst, int new_value);
+t_list	*insert_at_tail(t_list *lst, int new_value);
 
 #endif
