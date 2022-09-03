@@ -1,11 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
-
-typedef struct s_list
-{
-	int				value;
-	struct s_list	*next;
-}				t_list;
+#include "liblst.h"
 
 t_list	*delete_at_tail(t_list *lst)
 {
