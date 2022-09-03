@@ -9,20 +9,17 @@ t_list	*delete_at_tail(t_list *lst)
 		free(lst);
 		return (NULL);
 	}
-	else
-	{
-		t_list	*current;
-		t_list	*prev;
+	t_list	*current;
+	t_list	*prev;
 
-		current = lst;
-		prev = NULL;
-		while (current->next != NULL)
-		{
-			prev = current;
-			current = current->next;
-		}
-		prev->next = NULL;
-		free(current);
-		return (lst);
+	current = lst;
+	prev = NULL;
+	while (current->next != NULL)
+	{
+		prev = current;
+		current = current->next;
 	}
+	prev->next = NULL;
+	free(current);
+	return (lst);
 }
