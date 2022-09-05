@@ -16,7 +16,8 @@ SRC_PATH	=	.
 SRC_NAME	=	print_lst.c \
 				insert_at_head.c \
 				insert_at_tail.c \
-				delete_node.c \
+				delete_at_head.c \
+				delete_at_tail.c \
 
 INC			=	$(addprefix $(INC_PATH)/, $(INC_NAME))
 SRC			=	$(addprefix $(SRC_PATH)/, $(SRC_NAME))
