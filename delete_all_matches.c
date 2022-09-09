@@ -8,11 +8,11 @@ t_list	*delete_all_matches(t_list *lst, int value_to_del, int *num_deleted)
 	*num_deleted = 0;
 	current = lst;
 	deleted = false;
-	while (deleted)
+	do
 	{
 		current = delete_first_match(current, value_to_del, &deleted);
 		if (deleted)
 			*num_deleted += 1;
-	}
+	} while (deleted);
 	return (current);
 }
