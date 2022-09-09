@@ -11,7 +11,6 @@ t_list	*delete_at_tail(t_list *lst)
 	}
 	t_list	*current;
 	t_list	*prev;
-
 	current = lst;
 	prev = NULL;
 	while (current->next != NULL)
