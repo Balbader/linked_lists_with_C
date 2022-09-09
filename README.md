@@ -19,5 +19,3 @@ Reversing a linked list
 Duplicating a linked list
 
 Determining if a value is in a linked list
-
-...and many others, over 20 functions in total.
