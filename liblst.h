@@ -19,7 +19,7 @@ int		lst_length(t_list *lst);
 int		lst_length_recursive(t_list *lst);
 bool	is_member(t_list *lst, int value_to_find);
 int		count_matches(t_list *lst, int value_to_find);
-int		replace_matches(t_list *lst, int value_to_find, int new_value);
+void	replace_matches(t_list *lst, int value_to_find, int new_value);
 t_list	*delete_first_match(t_list *lst, int value_to_del, bool *is_deleted);
 t_list	*delete_all_matches(t_list *lst, int value_to_del, int *num_deleted);
 
