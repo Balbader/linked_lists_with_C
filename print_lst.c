@@ -16,3 +16,8 @@ void	print_lst(t_list *lst)
 		current = current->next;
 	}
 }
+
+int	main(void)
+{
+	return (0);
+}
