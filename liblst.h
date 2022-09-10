@@ -22,5 +22,6 @@ int		count_matches(t_list *lst, int value_to_find);
 void	replace_matches(t_list *lst, int value_to_find, int new_value);
 t_list	*delete_first_match(t_list *lst, int value_to_del, bool *is_deleted);
 t_list	*delete_all_matches(t_list *lst, int value_to_del, int *num_deleted);
+t_list	*efficient_del_match(t_list *lst, int value_to_del, int *num_deleted);
 
 #endif
