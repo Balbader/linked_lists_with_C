@@ -24,5 +24,7 @@ t_list	*delete_first_match(t_list *lst, int value_to_del, bool *is_deleted);
 t_list	*delete_all_matches(t_list *lst, int value_to_del, int *num_deleted);
 t_list	*efficient_del_match(t_list *lst, int value_to_del, int *num_deleted);
 t_list	*append_lst(t_list *lst1, t_list *lst2);
+t_list	*reverse_lst(t_list *lst);
+void	sort_lst(t_list *lst);
 
 #endif
