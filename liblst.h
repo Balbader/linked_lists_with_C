@@ -26,5 +26,8 @@ t_list	*efficient_del_match(t_list *lst, int value_to_del, int *num_deleted);
 t_list	*append_lst(t_list *lst1, t_list *lst2);
 t_list	*reverse_lst(t_list *lst);
 void	sort_lst(t_list *lst);
+void	delete_dup(t_list *lst);
+t_list	*delete_lst(t_list *lst);
+t_list	*insert_after(t_list *lst, int new_val, int after_val);
 
 #endif
