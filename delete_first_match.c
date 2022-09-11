@@ -18,6 +18,7 @@ t_list	*delete_first_match(t_list *lst, int value_to_del, bool *is_deleted)
 		*is_deleted = true;
 		return (temp);
 	}
+	current = NULL;
 	while (current != NULL)
 	{
 		if (current->content == value_to_del)
