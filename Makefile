@@ -26,6 +26,11 @@ SRC_NAME	=	print_lst.c \
 				delete_first_match.c \
 				delete_all_matches.c \
 				append_lst.c \
+				reverse_lst.c \
+				sort_lst.c \
+				delete_dup.c \
+				delete_lst.c \
+				insert_after.c \
 
 INC			=	$(addprefix $(INC_PATH)/, $(INC_NAME))
 SRC			=	$(addprefix $(SRC_PATH)/, $(SRC_NAME))
